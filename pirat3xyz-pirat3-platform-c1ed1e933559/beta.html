@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pirate | Airdrop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Pirate | Airdrop" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap" rel="stylesheet">
+    <meta name="keywords" content="Pirate, Pirate 3, web3" />
+    <meta name="developer" content="Pirate">
+    <meta itemprop="image" content="Pirate-cover.jpg">
+
+    <link rel="icon" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/airdrop.css">
+    <style>
+        #cardWrap img {
+        
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a id="logo" class="navbar-brand" href="#"><img src="images/logo.svg" title="Pirate" /></a>
+    </nav>
+    <div class="container">
+        <div class="row section-separator">
+
+            <div class="part-inner text-center">
+                <h1>Airdrop NFT</h1>
+                <h3>Introducing Our first NFT Airdrop for First 1k Founding Members</h3>
+                <div id="cardWrap">
+                    <!--<div class="card"></div>
+    <div class="cardContent">
+        <h2 class='content'>NFT</h2>
+        <h3 class='content'>HERE</h3>
+
+    </div>-->
+                    <!--<img src="./images/nft/nft.gif" />-->
+                    <video autoplay muted loop>
+                        <source src="./images/nft/nft.mp4" type="video/mp4">
+                        <source  src="./images/nft/nft.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="premint-form mb-5">
+                    <h2>Pre-Minting steps</h2>
+                    <p class="mb-4">Finish the steps & we will update you.</p>
+                    <div class="steps">
+                        <div class="step">
+                            <label for="wallet" class="form-label">Step - 1 Connect Ethereum Wallet</label>
+                            <button id="connectwallet" class="btn btn-outline-dark btn-lg">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" aria-hidden="true" focusable="false" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M11.944 17.97L4.58 13.62 11.943 24l7.37-10.38-7.372 4.35h.003zM12.056 0L4.69 12.223l7.365 4.354 7.365-4.35L12.056 0z"></path></svg>
+                                Connect Wallet
+                            </button>
+
+                        </div>
+                        <div class="step">
+                            <label for="email address" class="form-label">Step - 2 Provide Email address</label>
+                            <input type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Elon@mail.com">
+
+                        </div>
+
+                        <div class="step">
+                            <label for="Social account link" class="form-label">Step - 3 Provide Social account link (twitter or LinkedIn)</label>
+                            <input type="text" class="form-control"  aria-describedby="SocialaccountlinkHelp" placeholder="twitter.com/elon or linkedin.com/elon">
+
+                        </div>
+
+                        <div class="step">
+                            <div class="CTA-button">
+                                <a href="#" target="_blank" title="Join Clubhouse">Submit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <script>
+        const card = document.getElementById('cardWrap')
+
+        card.addEventListener('mousemove', (e) => {
+
+            let x = e.pageX - (innerWidth / 2)
+            let y = e.pageY - (innerHeight / 2)
+            card.style.transform = `translate(${x / 40}px, ${y / 40}px)`
+        })
+    </script>
+</body>
+</html>
